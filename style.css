@@ -1,42 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
-
-h1{
-    text-align: center;
-    display: block;
-    color: #8ec5b3;font-family: 'Goldman', cursive;;
-}
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
 body{
-    width: 100vw;
-    height: 100vh;
+    margin: 0;
+    padding: 0;
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
+h1{
+    font-family: 'Happy Monkey', cursive;
+    margin-top: 0;
+    font-size: 10vh;
+    text-align: center;
+    color: #464353;
+}
+
+img{
+    border-radius: 20px;
+    transition: ease-in-out 0.6s;
+}
+
 @media(max-width: 576px){
     img {
-        max-width: 100%;
-        display: block;
-        height: 70%;
+        width: 70%;
+        height: 80vh;
     }
 
 }
 @media(max-width: 768px){
     img {
-        width: 100%;
+        width: 90%;
+        height: 80vh;
     }
 }
 
-@media(max-width: 576px){
+@media(max-width: 992px){
     img {
-        width: 100%;
+        width: 90%;
+        height: 80vh;
     }
 }
 
-@media(max-width: 576px){
+@media(max-width: 1200px){
     img {
-        width: 100%;
+        width: 90%;
+        height: 80vh;
     }
 }
 
+@media(max-width: 1999px){
+    img {
+        width: 90%;
+        height: 80vh;
+    }
+}
 
