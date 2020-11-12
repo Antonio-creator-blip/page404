@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+
+h1{
+    text-align: center;
+    display: block;
+    color: #8ec5b3;font-family: 'Goldman', cursive;;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media(max-width: 576px){
+    img {
+        max-width: 100%;
+        display: block;
+        height: 70%;
+    }
+
+}
+@media(max-width: 768px){
+    img {
+        width: 100%;
+    }
+}
+
+@media(max-width: 576px){
+    img {
+        width: 100%;
+    }
+}
+
+@media(max-width: 576px){
+    img {
+        width: 100%;
+    }
+}
+
+
